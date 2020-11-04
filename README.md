@@ -13,3 +13,12 @@
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
 ```
+
+## build
+
+NODE_ENV = 'production' yarn run build
+
+## docs
+
+build &&  mv build docs
+
