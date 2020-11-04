@@ -16,9 +16,6 @@
 
 ## build
 
-NODE_ENV = 'production' yarn run build
+`yarn run build`
 
-## docs
-
-build &&  mv build docs
 

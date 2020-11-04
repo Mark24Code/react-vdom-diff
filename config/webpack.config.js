@@ -104,7 +104,7 @@ module.exports = function (webpackEnv) {
         // in production `paths.publicUrlOrPath` can be a relative path
         options: paths.publicUrlOrPath.startsWith('.')
           ? { publicPath: '../../' }
-          : { publicPath: 'https://mark24code.github.io/react-vdom-diff/'},
+          : {},
       },
       {
         loader: require.resolve('css-loader'),
